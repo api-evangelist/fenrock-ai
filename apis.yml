@@ -1,7 +1,32 @@
 aid: fenrock-ai
-name: Fenrock Ai
-description: Fenrock Ai is a company surfaced as a portfolio company of y-combinator and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fenrock-ai.png
+name: Fenrock AI
+description: >-
+  Fenrock AI is a Y Combinator (W26) company building specialized AI agents for
+  the banking back office. Founded in 2026 and based in San Francisco by Charu
+  Sharma and Michael M., Fenrock overlays on a bank's existing systems and
+  ingests internal policies and standard operating procedures to automate
+  compliance, financial-crime, and loan-operations workflows without requiring
+  data migration. Its agents assist analysts with alert triage, case
+  investigation, suspicious-activity-report (SAR) drafting, quality assurance,
+  enhanced due diligence, KYC/KYB reviews, and sanctions/PEP monitoring, while
+  preserving bullet-proof audit logs designed to pass regulatory examinations.
+  Fenrock positions itself as an AI workspace that lets a single analyst process
+  many times the volume of financial-crime and money-laundering cases. This
+  profile is an API Evangelist network company record; Fenrock is an
+  enterprise product company with no public API, developer portal, or
+  documentation surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/fenrock-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +36,41 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Artificial Intelligence
+- AI Agents
+- Banking
+- Financial Services
+- Compliance
+- Financial Crime
+- RegTech
+- Anti-Money Laundering
+- KYC
+- Fraud
+- Back Office
 apis: []
+common:
+- type: DomainSecurity
+  url: security/fenrock-ai-domain-security.yml
+- type: Website
+  url: https://www.fenrock.ai/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/fenrock-ai
+- type: Twitter
+  url: https://x.com/FenrockAI
+- type: Crunchbase
+  url: https://www.crunchbase.com/organization/fenrock
+- type: YCombinator
+  url: https://www.ycombinator.com/companies/fenrock-ai
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
