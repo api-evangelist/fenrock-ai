@@ -53,13 +53,13 @@ tags:
 - Artificial Intelligence
 - AI Agents
 - Banking
-- Financial-Services
+- Financial Services
 - Compliance
 - Financial Crime
 - RegTech
-- Anti-Money Laundering
+- AML
 - KYC
-- Fraud
+- Fraud Prevention
 - Back Office
 tags_raw:
 - Company
@@ -74,6 +74,7 @@ tags_raw:
 - KYC
 - Fraud
 - Back Office
+- Financial-Services
 apis: []
 common:
 - type: DomainSecurity
