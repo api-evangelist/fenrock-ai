@@ -1,0 +1,20 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/fenrock-ai/integrations
+- https://zapier.com/apps/fenrock/integrations
+- https://n8n.io/integrations/fenrock-ai/
+- https://n8n.io/integrations/fenrock/
+- https://composio.dev/toolkits/fenrock-ai
+- https://monid.ai/tools/fenrock-ai
+checked:
+- https://composio.dev/toolkits/fenrock-ai
+- https://monid.ai/tools/fenrock-ai
+- https://n8n.io/integrations/fenrock-ai/
+- https://n8n.io/integrations/fenrock/
+- https://zapier.com/apps/fenrock-ai/integrations
+- https://zapier.com/apps/fenrock/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
